@@ -19,9 +19,9 @@ function exactMatch(drivers, matcher){
         let matches = false;
 
         for (const key of matcher){
-            matches = driver[key] === matcher[key]
+            matches = driver[key] === matcher[key];
         }
 
-        return matches
+        return matches;
     });
 }
