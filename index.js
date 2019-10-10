@@ -23,6 +23,4 @@ function exactMatch(drivers, matcher){
             };
         };
     });
-    return matches;
-
 }
