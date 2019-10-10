@@ -13,3 +13,12 @@ function driverNamesWithRevenueOver(drivers, number){
     })
     return driversNames;
 }
+
+function exactMatch(drivers, revenue){
+    return drivers.map((driver)=>{
+        if(driver.revenue === revenue && driver.name === 'Bob'){
+            return driver 
+        }
+    })
+
+}
