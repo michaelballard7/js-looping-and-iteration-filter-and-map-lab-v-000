@@ -22,3 +22,10 @@ function exactMatch(drivers, matcher){
         return matches;
     });
 }
+
+function exactMatchToList(drivers, matcher){
+    return exactMatch(drivers,mathcer).map((driver)=>{
+        return `${driver.name}`
+    }
+    )
+}
