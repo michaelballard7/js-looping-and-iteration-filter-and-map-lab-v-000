@@ -22,6 +22,7 @@ function exactMatch(drivers, matcher){
             if(driver.name === matcher[key]){
                 matches.push(driver);
             };
+        console.log('Mathcer '+ mathcer[key])
         };
     });
     return matches;
