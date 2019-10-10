@@ -24,7 +24,7 @@ function exactMatch(drivers, matcher){
 }
 
 function exactMatchToList(drivers, matcher){
-    return exactMatch(drivers,mathcer).map((driver)=>{
+    return exactMatch(drivers,matcher).map((driver)=>{
         console.log(driver)
     }
     )
