@@ -20,5 +20,6 @@ function exactMatch(drivers, matcher){
         for (key of matcher){
             matches = driver[key] === matcher[key]
         }
+        return matches
     })
 }
