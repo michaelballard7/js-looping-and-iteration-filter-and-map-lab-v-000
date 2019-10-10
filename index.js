@@ -19,7 +19,7 @@ function exactMatch(drivers, matcher){
     drivers.map(driver => {
         for(key in matcher){
             console.log('Driver name '+ driver.name)
-            if(driver.name === matcher[key]){
+            if(driver.key === matcher[key]){
                 matches.push(driver);
             };
         console.log('Mathcer '+ matcher[key])
