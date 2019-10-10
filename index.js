@@ -5,13 +5,13 @@ function driversWithRevenueOver(drivers, number){
 }
 
 function driverNamesWithRevenueOver(drivers, number){
-    // let driversNames = [];
-    return drivers.filter((driver) => {
+    let driversNames = [];
+    drivers.filter((driver) => {
         if (driver.revenue > number){
-            driver.name
+            driversNames.push(driver.name)
         }
     })
-    // return driversNames;
+    return driversNames;
 }
 
 function exactMatch(drivers, revenue){
