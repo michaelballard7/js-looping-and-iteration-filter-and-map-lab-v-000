@@ -25,7 +25,7 @@ function exactMatch(drivers, matcher){
 
 function exactMatchToList(drivers, matcher){
     return exactMatch(drivers,matcher).map((driver)=>{
-        console.log(driver)
+        return driver.name
     }
     )
 }
