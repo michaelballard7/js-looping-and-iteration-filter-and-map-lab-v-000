@@ -8,7 +8,7 @@ function driverNamesWithRevenueOver(drivers, number){
     // let driversNames = [];
     return drivers.filter((driver) => {
         if (driver.revenue > number){
-            driversNames.push(driver.name)
+            driver.name
         }
     })
     // return driversNames;
