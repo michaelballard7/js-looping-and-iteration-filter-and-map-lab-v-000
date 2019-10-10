@@ -22,7 +22,7 @@ function exactMatch(drivers, matcher){
             matches = driver[key] === matcher[key];
             };
         };
-    });
+    );
     return matches;
 
 }
